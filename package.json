@@ -1,0 +1,40 @@
+{
+  "name": "entrevistas-tech-landing",
+  "version": "1.0.0",
+  "description": "Landing page of entrevistas.tech landing page",
+  "author": "Igor Halfeld",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "lint-staged": {
+    "*.{js,vue}": "npm run lint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "cross-env": "^5.2.0",
+    "koa": "^2.6.2",
+    "mobile-detect": "^1.4.4",
+    "nuxt": "^2.14.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "@nuxtjs/tailwindcss": "^1.0.0",
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "husky": "^4.0.0",
+    "lint-staged": "^10.0.0"
+  }
+}

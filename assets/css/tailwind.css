@@ -1,0 +1,19 @@
+/* purgecss start ignore */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+/* purgecss end ignore */
+@import "tailwindcss/utilities";
+@import "./fonts.css";
+
+@keyframes run {
+  from {
+    background-position: 0%;
+  }
+  to {
+    background-position: 100%;
+  }
+}
+
+.animation {
+  animation: run 50s linear alternate infinite;
+}
