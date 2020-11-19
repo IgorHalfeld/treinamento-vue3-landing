@@ -17,7 +17,7 @@
         Curso completo e <span class="underline">gratuito</span> de <span class="underline">Vue.js 3</span> do <span class="underline">iniciante</span> ao <span class="underline">avançado</span>.
       </h1>
       <p class="z-20 px-5 text-xl font-medium text-white lg:px-0 lg:text-4xl">
-        Aprenda a versão 3 do Vue construido uma aplicação completa!
+        Aprenda a versão 3 do Vue construindo uma aplicação completa!
       </p>
       <div class="z-20">
         <!--link="https://www.sympla.com.br/masterclass---processo-de-selecao__846205"-->
