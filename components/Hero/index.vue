@@ -20,8 +20,8 @@
         Aprenda a versão 3 do Vue construido uma aplicação completa!
       </p>
       <div class="z-20">
+        <!--link="https://www.sympla.com.br/masterclass---processo-de-selecao__846205"-->
         <custom-button
-          link="https://www.sympla.com.br/masterclass---processo-de-selecao__846205"
           class="z-20 mt-12"
           variant="bg-white text-gray-700 hover:bg-gray-200"
         >
