@@ -1,7 +1,7 @@
 <template>
   <button
     :class="classes"
-    class="font-bold text-white uppercase rounded-lg text-md lg:text-lg hover:bg-base-200"
+    class="font-bold text-white uppercase rounded-full text-md lg:text-lg hover:bg-base-200"
     @click="handleClick"
   >
     <slot />

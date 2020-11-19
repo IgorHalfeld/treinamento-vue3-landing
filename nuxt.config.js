@@ -5,20 +5,20 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Entrevistas Tech | Uma MasterClass online onde vamos te ensinar como buscar e conseguir um emprego como desenvolvedor e ter um ótimo salário 🚀',
+    title: 'Treinamento de Vue.js 3 | Curso completo e gratuito de Vue.js 3 do iniciante ao avançado 🚀',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Uma MasterClass online onde vamos te ensinar como buscar e conseguir um emprego como desenvolvedor e ter um ótimo salário 🚀' },
+      { hid: 'description', name: 'description', content: 'Curso completo e gratuito de Vue.js 3 do iniciante ao avançado 🚀' },
 
-      { name: 'og:title', content: 'Entrevistas Tech | Uma MasterClass online onde vamos te ensinar como buscar e conseguir um emprego como desenvolvedor e ter um ótimo salário 🚀' },
-      { name: 'og:site_name', content: 'Entrevistas Tech' },
-      { name: 'og:description', content: 'Uma MasterClass online onde vamos te ensinar como buscar e conseguir um emprego como desenvolvedor e ter um ótimo salário 🚀' },
-      { name: 'og:image', content: 'https://entrevistas.tech/banner.png' },
+      { name: 'og:title', content: 'Treinamento de Vue.js 3 | Curso completo e gratuito de Vue.js 3 do iniciante ao avançado 🚀' },
+      { name: 'og:site_name', content: 'Treinamento de Vue.js 3' },
+      { name: 'og:description', content: 'Curso completo e gratuito de Vue.js 3 do iniciante ao avançado 🚀' },
+      { name: 'og:image', content: 'https://entrevistas.tech/banner-image.jpeg' },
       { name: 'og:image:type', content: 'image/png' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' }
     ]
   },
   /*

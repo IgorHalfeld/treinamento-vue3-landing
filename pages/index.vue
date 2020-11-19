@@ -1,6 +1,7 @@
 <template>
   <main class="w-full h-full">
     <hero />
+    <!--
     <what />
     <video-why />
     <program />
@@ -12,11 +13,13 @@
     <client-only>
       <cta />
     </client-only>
+    -->
   </main>
 </template>
 
 <script>
 import Hero from '../components/Hero'
+/*
 import What from '../components/What'
 import VideoWhy from '../components/VideoWhy'
 import Program from '../components/Program'
@@ -26,10 +29,12 @@ import WhenAndWhere from '../components/WhenAndWhere'
 import Buy from '../components/Buy'
 import CustomFooter from '../components/CustomFooter'
 import Cta from '../components/Cta'
+*/
 
 export default {
   components: {
-    Hero,
+    Hero
+    /*
     What,
     VideoWhy,
     Program,
@@ -39,6 +44,7 @@ export default {
     Buy,
     CustomFooter,
     Cta
+    */
   }
 }
 </script>
