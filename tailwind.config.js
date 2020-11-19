@@ -1,5 +1,9 @@
 module.exports = {
   prefix: '',
+  purge: [
+    './**/*.js',
+    './**/*.vue'
+  ],
   important: false,
   separator: ':',
   theme: {

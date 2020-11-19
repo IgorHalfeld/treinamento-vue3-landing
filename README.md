@@ -1,6 +1,6 @@
-# entrevistas-tech-landing
+# Treinamento Vue.js 3
 
-> Landing page of entrevistas.tech landing page
+> Landing page of treinamento.vuejsbrasil.org landing page
 
 ## Build Setup
 
