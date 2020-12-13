@@ -7,47 +7,44 @@
   >
     <span
       :style="{
-        backgroundImage: 'linear-gradient(130.99deg, rgba(255, 87, 185, 0.47) 27.52%, rgba(167, 4, 253, 0.65) 90.8%)',
+        backgroundImage: 'linear-gradient(133.29deg, rgba(65, 184, 131, 0.7) 27.52%, rgba(65, 184, 131, 0.6) 90.8%)',
       }"
       class="absolute top-0 left-0 z-10 w-full h-full"
     />
 
-    <div class="flex flex-col justify-center max-w-3xl">
+    <div class="flex flex-col items-center justify-center max-w-3xl">
       <h3 class="z-20 text-2xl font-black text-center text-white lg:text-4xl">
-        Conheça seus instrutores
+        Conheça seu instrutor
       </h3>
-      <h4 class="z-20 text-xl font-medium text-center text-white lg:text-3xl">
-        Quem somos nós?
-      </h4>
+      <p class="z-20 text-xl font-medium text-center text-white lg:text-3xl">
+        Com quem você vai aprender?
+      </p>
     </div>
 
-    <div class="flex flex-col justify-between w-11/12 max-w-6xl mt-24 lg:mt-64 lg:flex-row">
-      <div class="flex flex-col items-center text-white">
-        <h4 class="z-20 items-center text-xl font-bold text-center lg:text-3xl">
-          Thaíssa Candella
-        </h4>
-        <p class="z-20 text-lg text-center lg:text-xl">
-          Head Developer Relations &amp; <br>
-          Professora de comunicação &amp; <br>
-          Organizadora de Comunidades
-        </p>
-        <a title="linkedin" href="https://www.linkedin.com/in/thaissacandella/" target="_blank" class="z-20 mt-6">
-          <custom-svg-image name="linkedin" class="w-8 h-8" />
-        </a>
-      </div>
-
+    <div class="flex flex-col justify-center w-11/12 max-w-6xl mt-24 lg:mt-64 lg:flex-row">
       <div class="flex flex-col items-center mt-16 text-white lg:mt-0">
-        <h4 class="z-20 text-xl font-bold text-center lg:text-3xl">
+        <h4 class="z-20 text-xl font-black text-center lg:text-4xl">
           Igor Halfeld
         </h4>
-        <p class="z-20 text-lg text-center lg:text-xl">
-          Engenheiro de Software Senior &amp; <br>
-          Organizador de Comunidades Tech &amp; <br>
-          Palestrante
+        <p class="z-20 text-lg font-medium text-center lg:text-2xl">
+          Engenheiro de Software, Organizador de comunidades <br>
+          como o Vue.js Brasil, Vue.js São Paulo, <br>
+          Javascript São Paulo, NodeBR e uns dos criadores do <br>
+          primeiro evento internacional de Vue.js da <br>
+          America Latina, o Vue.js Summit. <br>
+          Acompanha o Vue.js desde sua versão 0.11 <br>
         </p>
-        <a title="linkedin" href="https://www.linkedin.com/in/igorhalfeld/" target="_blank" class="z-20 mt-6">
-          <custom-svg-image name="linkedin" class="w-8 h-8" />
-        </a>
+        <div class="flex mt-6">
+          <a title="linkedin" href="https://www.linkedin.com/in/igorhalfeld/" target="_blank" class="z-20">
+            <custom-svg-image name="linkedin" class="w-8 h-8" />
+          </a>
+          <a title="linkedin" href="https://twitter.com/igorhalfeld/" target="_blank" class="z-20 mx-5">
+            <custom-svg-image name="twitter" class="w-8 h-8" />
+          </a>
+          <a title="linkedin" href="https://github.com/igorhalfeld/" target="_blank" class="z-20">
+            <custom-svg-image name="github" class="w-8 h-8" />
+          </a>
+        </div>
       </div>
     </div>
   </div>

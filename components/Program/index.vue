@@ -6,7 +6,7 @@
           O que você vai aprender?
         </h3>
         <h4 class="z-20 text-xl font-medium text-center text-gray-800 lg:text-3xl">
-          Tópicos que você verá na MasterClass
+          Todo o conteúdo que você verá no curso
         </h4>
 
         <div class="flex flex-col justify-center w-full px-3">
@@ -43,52 +43,115 @@ import ModuleItem from '../ModuleItem'
 
 const program = [
   {
-    title: 'A jornada se inicia',
-    desc: 'Por onde começar?',
+    title: 'Introdução (13/01/2021)',
+    desc: 'Apresentação e prepação',
     subModules: [
       {
-        title: 'Onde e como buscar as melhores oportunidades de trabalho?'
+        title: 'Como se preparar pra esse curso'
       },
       {
-        title: 'Como e quais os pontos importantes ao analisar uma empresa e oportunidade?'
+        title: 'História e filosofia do Vue'
+      },
+      {
+        title: 'Apresentação do ecossistema'
+      },
+      {
+        title: 'Configuração do ambiente'
       }
     ]
   },
   {
-    title: 'Marca pessoal e presença',
-    desc: 'Ganhe visibilidade!',
+    title: 'Conceitos do Vue (13/01/2021)',
+    desc: 'Principais fundamentos do Vue',
     subModules: [
-      { title: 'Como trabalhar sua Marca Pessoal Online (Github, LinkedIn, etc) e currículo?' },
-      { title: 'Importância das comunidades e participação em eventos' }
+      { title: 'Single-File Components' },
+      { title: 'Data-binding' },
+      { title: 'Métodos' },
+      { title: 'Diretivas' },
+      { title: 'Eventos' },
+      { title: 'Novas syntaxs e antiga' },
+      { title: 'Importância das comunidades e participação em eventos' },
+      { title: 'Life-cycle hooks' }
     ]
   },
   {
-    title: 'Entrevista não técnica',
-    desc: 'Como se destacar?',
+    title: 'Início do projeto (13/01/2021)',
+    desc: 'Mãos a massa!',
     subModules: [
-      { title: 'Técnicas práticas para trabalhar o nervosismo' },
-      { title: 'Como passar segurança e confiança na sua linguagem corporal e voz?' },
-      { title: 'O que estudar previamente sobre a empresa?' },
-      { title: 'Lidando com situações desconfortáveis' }
+      { title: 'Apresentação do nosso projeto: feedbacker (Pequena plataforma de feebacks)' },
+      { title: 'Exportando e colocando os assets do design' },
+      { title: 'Clonando e rodando backend (pré-pronto) do projeto' }
     ]
   },
   {
-    title: 'Entrevista técnica',
-    desc: 'Show me the code!',
+    title: 'Criando o dashboard (20/01/2021)',
+    desc: 'Fazendo nosso controle de feedbacks',
     subModules: [
-      { title: 'Quais os tipos possíveis de testes e como se preparar para cada um?' },
-      { title: 'Como e onde treinar?' },
-      { title: 'Hard Skills vs Soft Skills' },
-      { title: 'Lidando com situações desconfortáveis' }
+      { title: 'Introdução a rotiamento no Vue e setando nossas rotas' },
+      { title: 'Criando tela de login' },
+      { title: 'Criando tela de cadastro' },
+      { title: 'Criando tela de criação de apikey' },
+      { title: 'Criando tela de visualização de feedbacks' },
+      { title: 'Como funciona estado global no Vue 3' },
+      { title: 'Integrando tudo com a API' }
     ]
   },
   {
-    title: 'Entrevista de cultura',
-    desc: 'The last one!',
+    title: 'Testes pro dashboard (20/01/2021)',
+    desc: 'Fazendo nossos testes brabos',
     subModules: [
-      { title: 'Alinhamento' },
-      { title: 'Negociação de salário' },
-      { title: 'Lidando com situações desconfortáveis' }
+      { title: 'Fazendo testes unitários da tela de login' },
+      { title: 'Fazendo testes unitários da tela de cadastro' },
+      { title: 'Fazendo testes unitários da tela de criação de apikey' },
+      { title: 'Fazendo testes unitários da tela de visuação de feedbacks' },
+      { title: 'Fazendo testes unitários da nossa camada de serviço' },
+      { title: 'Fazendo testes end2end com cypress' }
+    ]
+  },
+  {
+    title: 'Deploy e Github actions (27/01/2021)',
+    desc: 'Vamos mandar nossa app para o espaço!',
+    subModules: [
+      { title: 'Deployando nosso backend na vercel' },
+      { title: 'Continuous Deployment com o Github' },
+      { title: 'Criando jobs no github actions para rodar os testes' },
+      { title: 'Criando dockerfile com multi-stage build pra deploy em outras plataformas' }
+    ]
+  },
+  {
+    title: 'Criando nosso widget (27/01/2021)',
+    desc: 'Fazendo o coração do nosso projeto',
+    subModules: [
+      { title: 'Configuração e arquitetura do projeto' },
+      { title: 'Introdução ao Typescript e configuração dele no projeto' },
+      { title: 'Criando mecânica de popup no site' },
+      { title: 'Criando tela de seleção de feedback' },
+      { title: 'Integrando com API' }
+    ]
+  },
+  {
+    title: 'Testes pro widget (03/02/2021)',
+    desc: 'E mais testes!!',
+    subModules: [
+      { title: 'Fazendo testes unitários pra tela de seleção de feedback' },
+      { title: 'Testando nossa camada de serviço' },
+      { title: 'Fazendo testes end2end com cypress' }
+    ]
+  },
+  {
+    title: 'Deploy e Github actions (03/02/2021)',
+    desc: 'Vamos mandar nossa app para o espaço! (de novo haha)',
+    subModules: [
+      { title: 'Continuous Deployment com o Github' },
+      { title: 'Criando jobs no github actions para rodar os testes' },
+      { title: 'Criando dockerfile com multi-stage build pra deploy em outras plataformas' }
+    ]
+  },
+  {
+    title: 'Próximos passos (03/02/2021)',
+    desc: 'Certificado e o que mais aprender?',
+    subModules: [
+      { title: 'Amadurecimento e migração do Vue 2' }
     ]
   }
 ]

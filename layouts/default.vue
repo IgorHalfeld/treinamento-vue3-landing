@@ -1,6 +1,17 @@
 <template>
-  <nuxt />
+  <div class="w-full h-full">
+    <modal />
+    <nuxt />
+  </div>
 </template>
+
+<script>
+import Modal from '../components/Modal'
+
+export default {
+  components: { Modal }
+}
+</script>
 
 <style>
 html,

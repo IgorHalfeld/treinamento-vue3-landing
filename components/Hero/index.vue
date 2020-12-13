@@ -17,13 +17,14 @@
         Curso completo e <span class="underline">gratuito</span> de <span class="underline">Vue.js 3</span> do <span class="underline">iniciante</span> ao <span class="underline">avançado</span>.
       </h1>
       <p class="z-20 px-5 text-xl font-medium text-white lg:px-0 lg:text-4xl">
-        Aprenda a versão 3 do Vue construindo uma aplicação completa!
+        Aprenda a versão 3 do Vue construindo uma aplicação completa by Vue.js Brasil!
       </p>
       <div class="z-20">
         <!--link="https://www.sympla.com.br/masterclass---processo-de-selecao__846205"-->
         <custom-button
           class="z-20 mt-12"
           variant="bg-white text-gray-700 hover:bg-gray-200"
+          @click.native="handleSubscribeButton"
         >
           Inscrever-se 🔥
         </custom-button>
@@ -36,6 +37,11 @@
 import CustomButton from '../CustomButton'
 
 export default {
-  components: { CustomButton }
+  components: { CustomButton },
+  methods: {
+    handleSubscribeButton () {
+      this.$modal.open()
+    }
+  }
 }
 </script>

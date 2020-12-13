@@ -10,6 +10,7 @@
         </h4>
 
         <div class="flex flex-col w-full px-3">
+          <!--
           <card
             svg="telegram"
             title="Grupo privado no Telegram"
@@ -18,14 +19,14 @@
             Acesso ao grupo do telegram privado para networking e tirar
             dúvidas esporádicas.
           </card>
+          -->
 
           <card
             svg="cv"
-            title="Revisão de CV e Linkedin"
-            class="mt-5"
-            :special="true"
+            title="Certificado de conclusão"
+            class="mt-12"
           >
-            Oferecemos uma revisão no seu currículo e perfil do linkedIn para contribuir na sua busca por um novo emprego.
+            Terá sim! você vai ter um certificado pra mostrar pra todo mundo que você terminou o curso 🤓
           </card>
         </div>
       </div>

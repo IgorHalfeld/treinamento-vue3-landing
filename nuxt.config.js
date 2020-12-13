@@ -36,7 +36,8 @@ module.exports = {
   */
   plugins: [
     { src: '~/plugins/md', ssr: true },
-    { src: '~/plugins/animate', ssr: true }
+    { src: '~/plugins/animate', ssr: true },
+    { src: '~/plugins/global', ssr: true }
   ],
   /*
   ** Nuxt.js dev-modules

@@ -16,8 +16,8 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       base: {
-        100: '#FB73C9',
-        200: '#F867C2',
+        100: 'rgba(65, 184, 131, 0.3)',
+        200: 'rgba(65, 184, 131, 0.7)',
         300: '#A704FD'
       },
       black: '#444',
