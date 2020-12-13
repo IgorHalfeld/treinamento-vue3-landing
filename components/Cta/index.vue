@@ -1,7 +1,7 @@
 <template>
   <div
     v-show="isVisible"
-    class="fixed bottom-0 left-0 z-50 flex items-center justify-center w-full h-32 bg-gray-100 lg:h-24 animated fadeInUp fast"
+    class="fixed bottom-0 left-0 z-40 flex items-center justify-center w-full h-32 bg-gray-100 lg:h-24 animated fadeInUp fast"
   >
     <div class="flex flex-col items-center justify-between w-3/5 lg:items-start lg:flex-row">
       <div class="flex flex-col">
