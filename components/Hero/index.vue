@@ -19,7 +19,7 @@
       <p class="z-20 px-5 text-xl font-medium text-white lg:px-0 lg:text-4xl">
         Aprenda a versão 3 do Vue construindo uma aplicação completa by Vue.js Brasil!
       </p>
-      <div class="z-20">
+      <div class="z-20 px-5 lg:px-0">
         <!--link="https://www.sympla.com.br/masterclass---processo-de-selecao__846205"-->
         <custom-button
           class="z-20 mt-12"
