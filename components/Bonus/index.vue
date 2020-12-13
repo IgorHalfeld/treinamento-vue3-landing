@@ -26,7 +26,7 @@
             title="Certificado de conclusão"
             class="mt-12"
           >
-            Terá sim! você vai ter um certificado pra mostrar pra todo mundo que você terminou o curso 🤓
+            Terá sim! Você vai ter um certificado pra mostrar pra todo mundo que terminou o curso 🤓
           </card>
         </div>
       </div>
