@@ -2,7 +2,7 @@
   <div class="flex flex-col items-center justify-center py-24">
     <div class="flex flex-col items-center justify-center max-w-3xl">
       <h3 class="z-20 px-5 text-2xl font-black text-center text-gray-800 lg:px-0 lg:text-4xl">
-        Veja o você irá construir e aprender no decorrer do curso!
+        Veja o que você irá construir e aprender no decorrer do curso!
       </h3>
       <img
         v-if="!videoActive"

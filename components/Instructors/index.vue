@@ -21,7 +21,7 @@
       </p>
     </div>
 
-    <div class="flex flex-col justify-center w-11/12 max-w-6xl mt-24 lg:mt-64 lg:flex-row">
+    <div class="flex flex-col justify-center w-11/12 max-w-6xl mt-5 lg:mt-64 lg:flex-row">
       <div class="flex flex-col items-center mt-16 text-white lg:mt-0">
         <h4 class="z-20 text-xl font-black text-center lg:text-4xl">
           Igor Halfeld
