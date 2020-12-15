@@ -101,7 +101,7 @@ export default {
       }
       return !this.isSuccess
         ? 'Deixe seu email para ser notificado!'
-        : 'Uhuul! Agopra é só esperar!'
+        : 'Uhuul! Agora é só esperar!'
     }
   },
   mounted () {
