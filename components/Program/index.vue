@@ -66,11 +66,9 @@ const program = [
     subModules: [
       { title: 'Single-File Components' },
       { title: 'Data-binding' },
-      { title: 'Métodos' },
       { title: 'Diretivas' },
-      { title: 'Eventos' },
+      { title: 'Eventos e métodos' },
       { title: 'Novas syntaxs e antiga' },
-      { title: 'Importância das comunidades e participação em eventos' },
       { title: 'Life-cycle hooks' }
     ]
   },
@@ -151,6 +149,7 @@ const program = [
     title: 'Próximos passos (03/02/2021)',
     desc: 'Certificado e o que mais aprender?',
     subModules: [
+      { title: 'Importância das comunidades e participação em eventos' },
       { title: 'Amadurecimento e migração do Vue 2' }
     ]
   }
