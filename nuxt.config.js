@@ -14,7 +14,7 @@ module.exports = {
       { name: 'og:title', content: 'Treinamento de Vue.js 3 | Curso completo e gratuito de Vue.js 3 do iniciante ao avançado 🚀' },
       { name: 'og:site_name', content: 'Treinamento de Vue.js 3' },
       { name: 'og:description', content: 'Curso completo e gratuito de Vue.js 3 do iniciante ao avançado 🚀' },
-      { name: 'og:image', content: 'https://entrevistas.tech/banner-image.jpeg' },
+      { name: 'og:image', content: 'https://entrevistas.tech/banner-image.jpg' },
       { name: 'og:image:type', content: 'image/png' }
     ],
     link: [
