@@ -1,7 +1,7 @@
 {
-  "name": "entrevistas-tech-landing",
+  "name": "treinamento-vue3-landing",
   "version": "1.0.0",
-  "description": "Landing page of entrevistas.tech landing page",
+  "description": "Landing page do treinamento de Vue.js 3 pelo Vue.js brasil",
   "author": "Igor Halfeld",
   "private": true,
   "scripts": {
