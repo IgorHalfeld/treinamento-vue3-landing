@@ -50,8 +50,9 @@ const program = [
         title: 'Como se preparar pra esse curso'
       },
       {
-        title: 'História e filosofia do Vue'
+        title: 'Marcos do front-end'
       },
+      { title: 'Filosofia do Vue e o que é' },
       {
         title: 'Apresentação do ecossistema'
       },
@@ -68,7 +69,7 @@ const program = [
       { title: 'Data-binding' },
       { title: 'Diretivas' },
       { title: 'Eventos e métodos' },
-      { title: 'Novas syntaxs e antiga' },
+      { title: 'Nova syntax e antiga' },
       { title: 'Life-cycle hooks' }
     ]
   },
