@@ -9,6 +9,8 @@
     <bonus />
 
     <when-and-where />
+    <sponsors />
+    <partner-communities />
     <custom-footer />
     <client-only>
       <cta />
@@ -27,6 +29,8 @@ const WhenAndWhere = () => import('../components/WhenAndWhere')
 const CustomFooter = () => import('../components/CustomFooter')
 const Cta = () => import('../components/Cta')
 const Bonus = () => import('../components/Bonus')
+const Sponsors = () => import('../components/Sponsors')
+const PartnerCommunities = () => import('../components/PartnerCommunities')
 
 export default {
   components: {
@@ -38,7 +42,9 @@ export default {
     WhenAndWhere,
     Bonus,
     CustomFooter,
-    Cta
+    Cta,
+    Sponsors,
+    PartnerCommunities
   }
 }
 </script>
