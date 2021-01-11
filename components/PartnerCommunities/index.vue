@@ -10,8 +10,8 @@
             v-for="(community, index) in communities"
             :key="index"
             class="w-32 max-w-3xl mb-5 lg:w-48 lg:mb-0 mt-10"
-            @click="openUrl(community.url)"
             :title="community.name"
+            @click="openUrl(community.url)"
           >
             <custom-image
               :alt="community.name"
