@@ -29,5 +29,6 @@ export default {
   border-radius: 30px;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: center;
 }
 </style>

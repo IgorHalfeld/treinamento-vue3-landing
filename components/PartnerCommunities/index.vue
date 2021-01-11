@@ -5,14 +5,20 @@
         <h3 class="z-20 text-2xl font-black text-center text-gray-800 lg:text-4xl">
           Comunidades Parceiras
         </h3>
-        <div class="flex flex-row w-32 max-w-3xl mb-5 lg:w-48 lg:mb-0 mt-10">
-          <custom-image
+        <div class="flex flex-row ">
+          <div
             v-for="(community, index) in communities"
             :key="index"
-            :alt="community.name"
-            :source="community.source"
-            class="cursor-pointer p-3 w-full"
-          />
+            class="w-32 max-w-3xl mb-5 lg:w-48 lg:mb-0 mt-10"
+            @click="openUrl(community.url)"
+            :title="community.name"
+          >
+            <custom-image
+              :alt="community.name"
+              :source="community.source"
+              class="cursor-pointer p-3 w-full"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -27,13 +33,23 @@ export default {
     communities: [{
       name: 'Vue.JS MS',
       source: require('../../static/vue-ms.jpeg'),
-      url: ''
+      url: 'https://t.me/vuejsms'
     },
     {
-      name: 'Vue.JS Brasil',
-      source: require('../../static/vue-brasil.jpeg'),
-      url: 'https://vuejs-brasil.com.br/'
+      name: 'Vue.JS Norte',
+      source: require('../../static/vue-norte.jpeg'),
+      url: 'https://www.meetup.com/pt-BR/Vue-js-Norte/'
+    },
+    {
+      name: 'Vue.JS Vix',
+      source: require('../../static/vue-vix.jpeg'),
+      url: 'https://t.me/vuejsvix/'
     }]
-  })
+  }),
+  methods: {
+    openUrl (url) {
+      window.open(url, '_blank', 'noopener')
+    }
+  }
 }
 </script>
