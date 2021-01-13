@@ -44,7 +44,7 @@ import ModuleItem from '../ModuleItem'
 const program = [
   {
     title: 'Introdução (13/01/2021)',
-    desc: 'Apresentação e prepação',
+    desc: 'Apresentação e preparação',
     subModules: [
       {
         title: 'Como se preparar pra esse curso'
@@ -77,7 +77,7 @@ const program = [
     title: 'Início do projeto (13/01/2021)',
     desc: 'Mãos a massa!',
     subModules: [
-      { title: 'Apresentação do nosso projeto: feedbacker (Pequena plataforma de feebacks)' },
+      { title: 'Apresentação do nosso projeto: feedbacker (Pequena plataforma de feedbacks)' },
       { title: 'Exportando e colocando os assets do design' },
       { title: 'Clonando e rodando backend (pré-pronto) do projeto' }
     ]
@@ -86,7 +86,7 @@ const program = [
     title: 'Criando o dashboard (20/01/2021)',
     desc: 'Fazendo nosso controle de feedbacks',
     subModules: [
-      { title: 'Introdução a rotiamento no Vue e setando nossas rotas' },
+      { title: 'Introdução a roteamento no Vue e setando nossas rotas' },
       { title: 'Criando tela de login' },
       { title: 'Criando tela de cadastro' },
       { title: 'Criando tela de criação de apikey' },
@@ -102,7 +102,7 @@ const program = [
       { title: 'Fazendo testes unitários da tela de login' },
       { title: 'Fazendo testes unitários da tela de cadastro' },
       { title: 'Fazendo testes unitários da tela de criação de apikey' },
-      { title: 'Fazendo testes unitários da tela de visuação de feedbacks' },
+      { title: 'Fazendo testes unitários da tela de visualização de feedbacks' },
       { title: 'Fazendo testes unitários da nossa camada de serviço' },
       { title: 'Fazendo testes end2end com cypress' }
     ]

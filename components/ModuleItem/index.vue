@@ -3,7 +3,7 @@
     <div class="flex items-center justify-between w-full cursor-pointer" @click="toggle">
       <div class="flex flex-col">
         <h4 class="text-xl font-bold text-left text-gray-800 underline lg:text-2xl">
-          <span class="underline">Modulo {{ number }}</span>: {{ title }}
+          <span class="underline">Módulo {{ number }}</span>: {{ title }}
         </h4>
         <p class="text-base font-medium text-left text-gray-800 lg:text-lg">
           {{ desc }}
@@ -34,7 +34,7 @@
         </div>
       </template>
       <p v-else class="text-gray-800 font-regular">
-        Ainda não foram definidos os modulos.
+        Ainda não foram definidos os módulos.
       </p>
     </div>
   </div>
