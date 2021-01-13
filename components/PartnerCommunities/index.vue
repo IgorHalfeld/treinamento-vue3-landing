@@ -60,6 +60,16 @@ export default {
         name: 'DevelopersBR',
         source: require('../../static/developersbr.jpg'),
         url: 'https://www.meetup.com/pt-BR/DevelopersBr/'
+      },
+      {
+        name: 'NodeBR',
+        source: require('../../static/nodebr.jpg'),
+        url: 'https://www.meetup.com/pt-BR/nodebr/'
+      },
+      {
+        name: 'JSSP',
+        source: require('../../static/jssp.png'),
+        url: 'https://www.meetup.com/pt-BR/Javascript-SP/'
       }
     ]
   }),
