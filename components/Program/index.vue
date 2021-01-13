@@ -25,8 +25,7 @@
           />
 
           <custom-button
-            variant="bg-gray-500"
-            class="mt-5 opacity-50 hover:opacity-100"
+            class="mt-5 bg-base-200"
             @click.native="toggleMore"
           >
             {{ buttonLabel }}
