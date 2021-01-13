@@ -16,6 +16,7 @@
       <div class="flex items-center h-full">
         <custom-button
           size="p-3 lg:p-5"
+          class="bg-base-200"
           @click.native="handleSubscribe"
         >
           EU QUERO 🔥
