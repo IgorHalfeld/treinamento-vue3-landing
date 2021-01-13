@@ -36,11 +36,14 @@
 <script>
 import CustomButton from '../CustomButton'
 
+const COURSE_URL = 'https://igorhalfeld.teachable.com/p/treinamento-completo-e-gratuito-de-vue-js-3-do-iniciante-ao-avancado?utm_source=landing_page'
+
 export default {
   components: { CustomButton },
   methods: {
     handleSubscribeButton () {
-      this.$modal.open()
+      // this.$modal.open()
+      window.open(COURSE_URL, '_blank', 'noopener')
     }
   }
 }

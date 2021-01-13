@@ -74,7 +74,7 @@ const program = [
     ]
   },
   {
-    title: 'Início do projeto (13/01/2021)',
+    title: 'Início do projeto (20/01/2021)',
     desc: 'Mãos a massa!',
     subModules: [
       { title: 'Apresentação do nosso projeto: feedbacker (Pequena plataforma de feebacks)' },
@@ -96,7 +96,7 @@ const program = [
     ]
   },
   {
-    title: 'Testes pro dashboard (20/01/2021)',
+    title: 'Testes pro dashboard (27/01/2021)',
     desc: 'Fazendo nossos testes brabos',
     subModules: [
       { title: 'Fazendo testes unitários da tela de login' },
@@ -118,7 +118,7 @@ const program = [
     ]
   },
   {
-    title: 'Criando nosso widget (27/01/2021)',
+    title: 'Criando nosso widget (03/01/2021)',
     desc: 'Fazendo o coração do nosso projeto',
     subModules: [
       { title: 'Configuração e arquitetura do projeto' },
@@ -138,7 +138,7 @@ const program = [
     ]
   },
   {
-    title: 'Deploy e Github actions (03/02/2021)',
+    title: 'Deploy e Github actions (11/02/2021)',
     desc: 'Vamos mandar nossa app para o espaço! (de novo haha)',
     subModules: [
       { title: 'Continuous Deployment com o Github' },
@@ -147,7 +147,7 @@ const program = [
     ]
   },
   {
-    title: 'Próximos passos (03/02/2021)',
+    title: 'Próximos passos (11/02/2021)',
     desc: 'Certificado e o que mais aprender?',
     subModules: [
       { title: 'Importância das comunidades e participação em eventos' },
