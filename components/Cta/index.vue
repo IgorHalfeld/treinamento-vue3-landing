@@ -29,6 +29,7 @@
 import CustomButton from '../CustomButton'
 
 const MAX_SCROLL_TO_PUT_VISIBLE = 580
+const COURSE_URL = 'https://igorhalfeld.teachable.com/p/treinamento-completo-e-gratuito-de-vue-js-3-do-iniciante-ao-avancado?utm_source=landing_page'
 
 export default {
   components: { CustomButton },
@@ -43,7 +44,8 @@ export default {
   },
   methods: {
     handleSubscribe () {
-      this.$modal.open()
+      // this.$modal.open()
+      window.open(COURSE_URL, '_blank', 'noopener')
     },
     handleScroll () {
       const { scrollY } = window
