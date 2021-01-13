@@ -3,14 +3,16 @@
     <div class="flex flex-col items-center justify-center max-w-4xl">
       <div class="flex flex-col justify-center max-w-3xl">
         <h3 class="z-20 text-2xl font-black text-center text-gray-800 lg:text-4xl">
-          Patrocinadores
+          Você é uma empresa?
         </h3>
-        <a
-          class="mt-12 custom-mailto"
-          href="mailto:igorluizhalfeld@gmail.com"
-        >
-          Patrocine essa iniciativa
-        </a>
+        <div class="flex justify-center w-full">
+          <a
+            class="mt-12 custom-mailto"
+            href="mailto:igorluizhalfeld@gmail.com"
+          >
+            Patrocine essa iniciativa
+          </a>
+        </div>
       </div>
     </div>
   </div>
