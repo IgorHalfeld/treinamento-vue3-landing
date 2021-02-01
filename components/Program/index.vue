@@ -133,7 +133,7 @@ const program = [
     ]
   },
   {
-    title: 'Criando nosso widget (11/02/2021)',
+    title: 'Criando nosso widget (10/02/2021)',
     desc: 'Fazendo o coração do nosso projeto',
     subModules: [
       { title: 'Configuração e arquitetura do projeto' },
@@ -144,7 +144,7 @@ const program = [
     ]
   },
   {
-    title: 'Testes pro widget (11/02/2021)',
+    title: 'Testes pro widget (10/02/2021)',
     desc: 'E mais testes!!',
     subModules: [
       { title: 'Fazendo testes unitários pra tela de seleção de feedback' },
@@ -153,7 +153,7 @@ const program = [
     ]
   },
   {
-    title: 'Deploy e Github actions (11/02/2021)',
+    title: 'Deploy e Github actions (10/02/2021)',
     desc: 'Vamos mandar nossa app para o espaço! (de novo haha)',
     subModules: [
       { title: 'Continuous Deployment com o Github' },
@@ -162,7 +162,7 @@ const program = [
     ]
   },
   {
-    title: 'Próximos passos (11/02/2021)',
+    title: 'Próximos passos (10/02/2021)',
     desc: 'Certificado e o que mais aprender?',
     subModules: [
       { title: 'Importância das comunidades e participação em eventos' },
