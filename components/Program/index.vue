@@ -85,25 +85,41 @@ const program = [
     title: 'Criando o dashboard (20/01/2021)',
     desc: 'Fazendo nosso controle de feedbacks',
     subModules: [
-      { title: 'Introdução a rotiamento no Vue e setando nossas rotas' },
-      { title: 'Criando tela de login' },
-      { title: 'Criando tela de cadastro' },
-      { title: 'Criando tela de criação de apikey' },
-      { title: 'Criando tela de visualização de feedbacks' },
-      { title: 'Como funciona estado global no Vue 3' },
-      { title: 'Integrando tudo com a API' }
+      { title: 'Configurando nosso projeto e introdução a rotiamento no Vue' },
+      { title: 'Criando tela de inicial (Parte 1)' },
+      { title: 'Criando tela de inicial (Parte 2)' },
+      { title: 'Criando nosso modal factory (Parte 1)' },
+      { title: 'Criando nosso modal factory (Parte 2)' },
+      { title: 'Criando modal de login (Parte 1)' },
+      { title: 'Criando modal de login (Parte 2)' },
+      { title: 'Criando modal de login (Parte 3)' },
+      { title: 'Criando modal de login (Parte 4)' },
+      { title: 'Criando modal de cadastro' },
+      { title: 'Pegando o usuário logado e controlando rotas autenticadas' },
+      { title: 'Introdução estado global no Vue 3' },
+      { title: 'Criando tela de credenciais (Parte 1)' },
+      { title: 'Criando tela de credenciais (Parte 2)' },
+      { title: 'Criando tela de credenciais (Parte 3)' },
+      { title: 'Criando tela de credenciais (Parte 4)' },
+      { title: 'Criando tela de feedbacks (Parte 1)' },
+      { title: 'Criando tela de feedbacks (Parte 2)' },
+      { title: 'Criando tela de feedbacks (Parte 3)' },
+      { title: 'Criando tela de feedbacks (Parte 4)' },
+      { title: 'Criando tela de feedbacks (Parte 5)' },
+      { title: 'Criando tela de feedbacks (Parte 6)' }
     ]
   },
   {
     title: 'Testes pro dashboard (27/01/2021)',
     desc: 'Fazendo nossos testes brabos',
     subModules: [
-      { title: 'Fazendo testes unitários da tela de login' },
-      { title: 'Fazendo testes unitários da tela de cadastro' },
-      { title: 'Fazendo testes unitários da tela de criação de apikey' },
-      { title: 'Fazendo testes unitários da tela de visuação de feedbacks' },
-      { title: 'Fazendo testes unitários da nossa camada de serviço' },
-      { title: 'Fazendo testes end2end com cypress' }
+      { title: 'Fazendo testes unitários de utils' },
+      { title: 'Fazendo testes unitários dos serviços' },
+      { title: 'Fazendo testes unitários da store' },
+      { title: 'Fazendo testes unitários de componente' },
+      { title: 'Fazendo testes de componentes que usam a store' },
+      { title: 'Fazendo testes end2end com cypress (Parte 1)' },
+      { title: 'Fazendo testes end2end com cypress (Parte 2)' }
     ]
   },
   {
@@ -117,7 +133,7 @@ const program = [
     ]
   },
   {
-    title: 'Criando nosso widget (03/01/2021)',
+    title: 'Criando nosso widget (11/02/2021)',
     desc: 'Fazendo o coração do nosso projeto',
     subModules: [
       { title: 'Configuração e arquitetura do projeto' },
@@ -128,7 +144,7 @@ const program = [
     ]
   },
   {
-    title: 'Testes pro widget (03/02/2021)',
+    title: 'Testes pro widget (11/02/2021)',
     desc: 'E mais testes!!',
     subModules: [
       { title: 'Fazendo testes unitários pra tela de seleção de feedback' },
